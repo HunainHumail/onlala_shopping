@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:onlala_shopping/Profile/my_account.dart';
 import 'package:onlala_shopping/alldepartments/all_departments.dart';
 import 'package:onlala_shopping/alldepartments/automobile.dart';
 import 'package:onlala_shopping/alldepartments/products/automobile_product.dart';
@@ -12,7 +13,7 @@ void main() {
 
         debugShowCheckedModeBanner: false,
         // home: OnboardingPage(),
-        home: AutomobileProduct(),
+        home: Account(),
 
       )
   );
