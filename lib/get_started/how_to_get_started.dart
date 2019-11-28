@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import './process.dart' as process;
-import './Video.dart' as video;
+import './videotab.dart' as videotab;
 import './faq.dart' as faq;
 
 class GetStartedTabs extends StatefulWidget{
@@ -18,7 +18,7 @@ class _GetStartedTabs extends State<GetStartedTabs> with SingleTickerProviderSta
   void initState() {
     // TODO: implement initState
     super.initState();
-    controller = new TabController(length: 3, vsync: null);
+    controller = new TabController(length: 3, vsync: this);
   }
 
   @override
@@ -46,7 +46,7 @@ class _GetStartedTabs extends State<GetStartedTabs> with SingleTickerProviderSta
       body: new TabBarView(controller: controller,
       children: <Widget>[
         new process.Process(),
-        new video.Video(),
+        new videotab.VideoTab(),
         new faq.FAQ(),
       ],),
     );
