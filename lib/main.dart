@@ -14,6 +14,8 @@ import 'package:onlala_shopping/login_screen.dart';
 import 'package:onlala_shopping/shopping_cartlist.dart';
 import 'package:onlala_shopping/verify_docs/verifydocmain.dart';
 
+import 'categories/categoriesV2.dart';
+
 void main() {
   runApp(
       MaterialApp(
@@ -26,3 +28,7 @@ void main() {
       )
   );
 }
+
+
+
+
