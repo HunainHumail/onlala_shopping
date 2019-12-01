@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:onlala_shopping/Profile/my_account.dart';
+import 'package:onlala_shopping/Profile/my_order_list.dart';
+import 'package:onlala_shopping/Profile/my_wish_list.dart';
 import 'package:onlala_shopping/account/help_center.dart';
 import 'package:onlala_shopping/account/invite_friends.dart';
 import 'package:onlala_shopping/account/wallet.dart';
 import 'package:onlala_shopping/alldepartments/all_departments.dart';
 import 'package:onlala_shopping/alldepartments/automobile.dart';
 import 'package:onlala_shopping/alldepartments/products/automobile_product.dart';
+import 'package:onlala_shopping/alldepartments/products/single_product_page/product_information.dart';
 import 'package:onlala_shopping/app_home.dart';
 import 'package:onlala_shopping/categories/categoriesV1.dart';
 import 'package:onlala_shopping/categories/categoriesV2.dart';
@@ -23,7 +26,7 @@ void main() {
 
         debugShowCheckedModeBanner: false,
         // home: OnboardingPage(),
-        home: CategoryV2(),
+        home: MyOrderList(),
 
       )
   );
