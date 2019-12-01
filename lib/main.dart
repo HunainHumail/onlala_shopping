@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:onlala_shopping/Profile/my_account.dart';
-import 'package:onlala_shopping/Profile/my_order_list.dart';
-import 'package:onlala_shopping/Profile/my_wish_list.dart';
 import 'package:onlala_shopping/account/help_center.dart';
 import 'package:onlala_shopping/account/invite_friends.dart';
 import 'package:onlala_shopping/account/wallet.dart';
@@ -26,7 +24,7 @@ void main() {
 
         debugShowCheckedModeBanner: false,
         // home: OnboardingPage(),
-        home: MyOrderList(),
+        home:LoginScreen(),
 
       )
   );
