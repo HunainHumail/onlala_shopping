@@ -10,6 +10,7 @@ import 'package:onlala_shopping/alldepartments/products/single_product_page/prod
 import 'package:onlala_shopping/app_home.dart';
 import 'package:onlala_shopping/categories/categoriesV1.dart';
 import 'package:onlala_shopping/categories/categoriesV2.dart';
+import 'package:onlala_shopping/chatbot.dart';
 import 'package:onlala_shopping/get_started/how_to_get_started.dart';
 import 'package:onlala_shopping/login_screen.dart';
 import 'package:onlala_shopping/shopping_cartlist.dart';
@@ -25,7 +26,7 @@ void main() {
 
         debugShowCheckedModeBanner: false,
         // home: OnboardingPage(),
-        home:SearchTracking(),
+        home:ChatBot(),
 
       )
   );
