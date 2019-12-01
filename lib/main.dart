@@ -24,7 +24,7 @@ void main() {
 
         debugShowCheckedModeBanner: false,
         // home: OnboardingPage(),
-        home:LoginScreen(),
+        home:ProductInformation(),
 
       )
   );

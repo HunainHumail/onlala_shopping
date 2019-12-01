@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:carousel_pro/carousel_pro.dart';
-
+import './overview.dart' as overview;
+import './product_details.dart'as productdetails;
+import './recommended.dart' as recommended;
 
 
 
@@ -17,31 +18,45 @@ class _ProductInformation extends State<ProductInformation> {
   @override
   Widget build(BuildContext context) {
 
-    Widget image_carousel = new Container(
-      height: 200.0,
-      child: Carousel(
-        boxFit: BoxFit.cover,
-        images: [
-          AssetImage('assets/images/cover1.png'),
-          AssetImage('assets/images/cover2.jpg'),
-          AssetImage('assets/images/cover3.jpg'),
-        ],
-        autoplay: false,
-        animationCurve: Curves.fastOutSlowIn,
-        animationDuration: Duration(milliseconds: 1000),
-      ),
-    );
+    PageController _pageController;
+
+    @override
+    void initState() {
+      // TODO: implement initState
+      super.initState();
+      _pageController = PageController();
+    }
+
+    @override
+    void dispose() {
+      // TODO: implement dispose
+      super.dispose();
+      super.dispose();
+    }
+
+
+
 
     // TODO: implement build
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.lightBlueAccent,
+        title: Center(child: Text('Product Information',style: TextStyle(color: Colors.black),)),
+      ),
       body: SafeArea(
-        child: SingleChildScrollView(
-          child: Column(
-            children: <Widget>[
-              image_carousel,
+        child: PageView(
+          scrollDirection: Axis.vertical,
+          controller: _pageController,
+          children: <Widget>[
 
-            ],
-          ),
+            overview.OverviewPage(),
+            productdetails.ProductDetails(),
+            recommended.RecommendedPage(),
+
+
+
+          ],
+
         ),
       ),
 
