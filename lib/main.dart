@@ -13,6 +13,7 @@ import 'package:onlala_shopping/categories/categoriesV2.dart';
 import 'package:onlala_shopping/get_started/how_to_get_started.dart';
 import 'package:onlala_shopping/login_screen.dart';
 import 'package:onlala_shopping/shopping_cartlist.dart';
+import 'package:onlala_shopping/tracking/search_tracking.dart';
 import 'package:onlala_shopping/verify_docs/verifydocmain.dart';
 
 import 'categories/categoriesV2.dart';
@@ -24,7 +25,7 @@ void main() {
 
         debugShowCheckedModeBanner: false,
         // home: OnboardingPage(),
-        home:ProductInformation(),
+        home:SearchTracking(),
 
       )
   );
