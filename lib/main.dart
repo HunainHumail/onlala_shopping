@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:onlala_shopping/Profile/Profile.dart';
 import 'package:onlala_shopping/Profile/my_account.dart';
 import 'package:onlala_shopping/account/help_center.dart';
 import 'package:onlala_shopping/account/invite_friends.dart';
@@ -26,7 +27,7 @@ void main() {
 
         debugShowCheckedModeBanner: false,
         // home: OnboardingPage(),
-        home:ChatBot(),
+        home:ProfileScreen(),
 
       )
   );

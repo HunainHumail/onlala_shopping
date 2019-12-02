@@ -2,17 +2,17 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class Profile extends StatefulWidget {
-  Profile({Key key}) : super(key: key);
+class ProfileScreen extends StatefulWidget {
+  ProfileScreen({Key key}) : super(key: key);
 
 
   @override
-  _ProfileState createState() => _ProfileState();
+  _ProfileScreen createState() => _ProfileScreen();
 }
 
 
 
-class _ProfileState extends State<Profile> {
+class _ProfileScreen extends State<ProfileScreen> {
 
 
   void _incrementTab(index) {
@@ -406,39 +406,8 @@ class _ProfileState extends State<Profile> {
           )
         ],
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _cIndex,
-        type: BottomNavigationBarType.fixed,
-        items: [
-          BottomNavigationBarItem(
-              icon: Icon(Icons.home, color: Color.fromARGB(255, 0, 0, 0)),
-              title: new Text('Home')),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.shopping_cart,
-                  color: Color.fromARGB(255, 0, 0, 0)),
-              title: new Text('Products')),
-          BottomNavigationBarItem(
-              icon:
-              Icon(Icons.chat_bubble, color: Color.fromARGB(255, 0, 0, 0)),
-              title: new Text('Message')),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.account_circle,
-                  color: Color.fromARGB(255, 0, 0, 0)),
-              title: new Text('Profile')),
-        ],
-        onTap: (index) {
-          _incrementTab(index);
-        },
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      floatingActionButton: new FloatingActionButton(
-        child: Icon(
-          Icons.add,
-          color: Colors.white,
-        ),
-        onPressed: null,
-        backgroundColor: Color.fromRGBO(33, 121, 152, 0.9),
-      ),
+
+
     );
   }
 // Main Function : End
