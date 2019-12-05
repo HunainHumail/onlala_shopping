@@ -16,7 +16,7 @@ class _CategoryV1 extends State<CategoryV1>{
     return Scaffold(
       appBar: AppBar(
         title: Center(child: Text('Category',style: TextStyle(color: Colors.white),)),
-        backgroundColor: Color.fromRGBO(30, 115, 148, 0.9),
+        backgroundColor: Color.fromRGBO(15, 87, 111, 0.9),
       ),
 
       body: _myListView(context),

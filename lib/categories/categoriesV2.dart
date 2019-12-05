@@ -45,7 +45,7 @@ class _CategoryV2 extends State<CategoryV2>{
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromRGBO(30, 115, 148, 0.9),
+        backgroundColor: Color.fromRGBO(15, 87, 111, 0.9),
         title: Center(child: Text("Category")),
       ),
 
