@@ -27,7 +27,7 @@ void main() {
 
         debugShowCheckedModeBanner: false,
         // home: OnboardingPage(),
-        home:Wallet(),
+        home:Automobile(),
 
       )
   );

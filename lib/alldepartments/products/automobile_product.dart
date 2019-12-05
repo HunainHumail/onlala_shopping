@@ -16,7 +16,7 @@ class _AutomobileProduct extends State <AutomobileProduct> {
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromRGBO(30, 115, 148, 0.9),
+        backgroundColor: Color.fromRGBO(15, 87, 111, 0.8),
         title: Center(child: Text("Products")),
       ),
       body: SafeArea(
@@ -65,7 +65,7 @@ class _AutomobileProduct extends State <AutomobileProduct> {
                                     ),
                                     Padding(
                                       padding: const EdgeInsets.all(8.0),
-                                      child: Text('\$50.00', style: TextStyle(color: Colors.indigo),),
+                                      child: Text('\$50.00', style: TextStyle(color: Color.fromRGBO(15, 87, 111, 0.8)),),
                                     ),
                                     Padding(
                                       padding: const EdgeInsets.all(8.0),
@@ -76,7 +76,7 @@ class _AutomobileProduct extends State <AutomobileProduct> {
                                       minWidth: 70,
                                       child: RaisedButton(
                                         onPressed: () {},
-                                        color: Colors.indigo,
+                                        color: Color.fromRGBO(15, 87, 111, 0.8),
                                         child: Text('Add to Cart', style: TextStyle(color: Colors.white70),),
                                       ),
                                     )
@@ -124,7 +124,7 @@ class _AutomobileProduct extends State <AutomobileProduct> {
                                     ),
                                     Padding(
                                       padding: const EdgeInsets.all(8.0),
-                                      child: Text('\$50.00', style: TextStyle(color: Colors.indigo),),
+                                      child: Text('\$50.00', style: TextStyle(color: Color.fromRGBO(15, 87, 111, 0.8)),),
                                     ),
                                     Padding(
                                       padding: const EdgeInsets.all(8.0),
@@ -135,7 +135,7 @@ class _AutomobileProduct extends State <AutomobileProduct> {
                                       minWidth: 70,
                                       child: RaisedButton(
                                         onPressed: () {},
-                                        color: Colors.indigo,
+                                        color: Color.fromRGBO(15, 87, 111, 0.8),
                                         child: Text('Add to Cart', style: TextStyle(color: Colors.white70),),
                                       ),
                                     )
@@ -183,7 +183,7 @@ class _AutomobileProduct extends State <AutomobileProduct> {
                                     ),
                                     Padding(
                                       padding: const EdgeInsets.all(8.0),
-                                      child: Text('\$50.00', style: TextStyle(color: Colors.indigo),),
+                                      child: Text('\$50.00', style: TextStyle(color: Color.fromRGBO(15, 87, 111, 0.8)),),
                                     ),
                                     Padding(
                                       padding: const EdgeInsets.all(8.0),
@@ -194,7 +194,7 @@ class _AutomobileProduct extends State <AutomobileProduct> {
                                       minWidth: 70,
                                       child: RaisedButton(
                                         onPressed: () {},
-                                        color: Colors.indigo,
+                                        color: Color.fromRGBO(15, 87, 111, 0.8),
                                         child: Text('Add to Cart', style: TextStyle(color: Colors.white70),),
                                       ),
                                     )

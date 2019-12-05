@@ -29,7 +29,7 @@ class _Automobile extends State<Automobile> {
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromRGBO(30, 115, 148, 0.9),
+        backgroundColor: Color.fromRGBO(15, 87, 111, 0.9),
         title: Center(child: Text("Automobile")),
       ),
 
@@ -65,7 +65,7 @@ class _Automobile extends State<Automobile> {
                         ),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
-                          child: Center(child: Text('Category Name',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),)),
+                          child: Center(child: Text('Category Name',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20,color: Color.fromRGBO(15, 87, 111, 0.9)),)),
                         ),
                         Padding(
                           padding: const EdgeInsets.all(6.0),
