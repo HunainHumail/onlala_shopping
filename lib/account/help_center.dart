@@ -16,7 +16,7 @@ class _HelpCenter extends State<HelpCenter>{
     return Scaffold(
       appBar: AppBar(
         title: Text('Help Center',style: TextStyle(color: Colors.white),),
-        backgroundColor: Color.fromRGBO(30, 115, 148, 0.9),
+        backgroundColor: Color.fromRGBO(15, 87, 111, 0.8),
       ),
       body: SafeArea(
         child: SizedBox(

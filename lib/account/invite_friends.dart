@@ -35,9 +35,10 @@ class _InviteFriends extends State<InviteFriends> with SingleTickerProviderState
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromRGBO(30, 115, 148, 0.9),
+        backgroundColor: Color.fromRGBO(15, 87, 111, 0.8),
         title: Center(child: Text('How to Get Started',style: TextStyle(color: Colors.white),)),
         bottom: new TabBar(controller: controller,
+            indicatorColor: Colors.white,
             tabs: <Tab> [
               new Tab(text: 'From Contact',),
               new Tab(text: 'Facebook',),

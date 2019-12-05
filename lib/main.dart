@@ -27,7 +27,7 @@ void main() {
 
         debugShowCheckedModeBanner: false,
         // home: OnboardingPage(),
-        home:ProfileScreen(),
+        home:Wallet(),
 
       )
   );

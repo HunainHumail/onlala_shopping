@@ -46,7 +46,7 @@ class InviteFacebook extends StatelessWidget{
               borderRadius: new BorderRadius.circular(18.0),
             ),
             child: RaisedButton(
-              color: Color.fromRGBO(30, 115, 148, 0.9),
+              color: Color.fromRGBO(15, 87, 111, 0.8),
               child: Text(
                 'Invite',
                 style: TextStyle(color: Colors.white),
@@ -56,7 +56,7 @@ class InviteFacebook extends StatelessWidget{
           ),
           leading: CircleAvatar(
             child: Text('HH'),
-            backgroundColor: Color.fromRGBO(30, 115, 148, 0.9),
+            backgroundColor: Color.fromRGBO(15, 87, 111, 0.8),
             radius: 30,
           ),
         );
