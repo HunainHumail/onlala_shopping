@@ -31,7 +31,7 @@ void main() {
 
         debugShowCheckedModeBanner: false,
         // home: OnboardingPage(),
-        home:CreditCard(),
+        home:LoginScreen(),
 
       )
   );

@@ -103,8 +103,8 @@ class _LoginScreen extends State<LoginScreen> {
                         onPressed: () {
 
                         },
-                        color: Color.fromRGBO(30, 115, 148, 0.9),
-                        child: Text('Login'),
+                        color: Color.fromRGBO(15, 87, 111, 1.0),
+                        child: Text('LOGIN',style: TextStyle(color: Colors.white),),
                       ),
                     ),
                   ),
