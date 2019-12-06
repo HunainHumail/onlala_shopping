@@ -33,9 +33,9 @@ class _GetStartedTabs extends State<GetStartedTabs> with SingleTickerProviderSta
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromRGBO(30, 115, 148, 0.9),
-        title: Center(child: Text("My Products")),
-        bottom: new TabBar(controller: controller,
+        backgroundColor: Color.fromRGBO(15, 87, 111, 0.9),
+        title: Center(child: Text("How to Get started")),
+        bottom: new TabBar(controller: controller,indicatorColor: Colors.white,
             tabs: <Tab> [
               new Tab(text: 'Our Process',),
               new Tab(text: 'Video',),

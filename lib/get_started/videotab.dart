@@ -16,18 +16,52 @@ class _VideoTab extends State<VideoTab> {
     return Scaffold(
       body: ListView(
         children: <Widget>[
-          ChewieListItem(
-            videoPlayerController: VideoPlayerController.network('http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'),
-            looping: true,
+          Card(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  ChewieListItem(
+                    videoPlayerController: VideoPlayerController.network('http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'),
+                    looping: true,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left:8.0, top: 15, bottom: 40),
+                    child: Text('How to get started on onlala',style: TextStyle(fontWeight: FontWeight.bold),),
+                  )
+                ],
+              )
           ),
-          ChewieListItem(
-            videoPlayerController: VideoPlayerController.network('http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'),
+          Card(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  ChewieListItem(
+                    videoPlayerController: VideoPlayerController.network('http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'),
+                    looping: true,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left:8.0, top: 15, bottom: 40),
+                    child: Text('How to get started on onlala',style: TextStyle(fontWeight: FontWeight.bold),),
+                  )
+                ],
+              )
           ),
 
-          ChewieListItem(
-            videoPlayerController: VideoPlayerController.network('http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'),
-
-          )
+          Card(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  ChewieListItem(
+                    videoPlayerController: VideoPlayerController.network('http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'),
+                    looping: true,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left:8.0, top: 15, bottom: 40),
+                    child: Text('How to get started on onlala',style: TextStyle(fontWeight: FontWeight.bold),),
+                  )
+                ],
+              )
+          ),
 
 
         ],
