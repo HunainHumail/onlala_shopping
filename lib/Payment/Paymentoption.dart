@@ -21,42 +21,53 @@ class _PaymentOptionState extends State<PaymentOption> {
     return Scaffold(
       body: ListView(
           children: <Widget>[
+
             Padding(
-              padding: EdgeInsets.only( top: 80.0, right: 20.0, left: 20.0 ),
-              child: Text(
-                "Subtotal:                                     \$300",
-                style: TextStyle(
-                    fontSize: 20.0 ),
-              ),
+              padding: const EdgeInsets.only(top:30.0,bottom: 10.0,left: 8.0,right: 8.0),
+              child: SizedBox(width: MediaQuery.of(context).size.width,
+              child: Card(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Padding(
+                      padding: EdgeInsets.only( top: 20.0, right: 20.0, left: 20.0 ),
+                      child: Text(
+                        "Subtotal:                                     \$300",
+                        style: TextStyle(
+                            fontSize: 20.0 ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(top: 20.0, left: 20.0, right: 20.0),
+                      child: Text(
+                        "Bonus:                                          5%",
+                        style: TextStyle(
+                            fontSize: 20.0 ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(top:20.0,left: 20.0, right: 20.0),
+                      child: Text(
+                        "Shipping:                                      \$550",
+                        style: TextStyle(
+                            fontSize: 20.0 ),
+                      ),
+                    ),
+                    SizedBox(height: 10.0,),
+                    Padding(
+                      padding: const EdgeInsets.only(top:20.0,left: 20.0, right: 20.0,bottom: 60),
+                      child: Text(
+                        "Total:                                              \$550",
+                        style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20.0 ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),),
             ),
-            Padding(
-              padding: const EdgeInsets.only(top: 20.0, left: 20.0, right: 20.0),
-              child: Text(
-                "Bonus:                                          5%",
-                style: TextStyle(
-                    fontSize: 20.0 ),
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(top:20.0,left: 20.0, right: 20.0),
-              child: Text(
-                "Shipping:                                      \$550",
-                style: TextStyle(
-                    fontSize: 20.0 ),
-              ),
-            ),
-            SizedBox(height: 10.0,),
-            Padding(
-              padding: const EdgeInsets.only(top:20.0,left: 20.0, right: 20.0),
-              child: Text(
-                "Total:                                              \$550",
-                style: TextStyle(
-                    color: Colors.black,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20.0 ),
-              ),
-            ),
-            SizedBox(height: 45.0,),
             Padding(
               padding: EdgeInsets.only( top: 50.0, right: 20.0, left: 20.0 ),
               child: Text( "Payment Options",
