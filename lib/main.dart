@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:onlala_shopping/Payment/Creditcardinfo.dart';
 import 'package:onlala_shopping/Payment/Myproducts.dart';
 import 'package:onlala_shopping/Payment/Paymentoption.dart';
 import 'package:onlala_shopping/Payment/Yourcart.dart';
@@ -30,7 +31,7 @@ void main() {
 
         debugShowCheckedModeBanner: false,
         // home: OnboardingPage(),
-        home:PaymentOption(),
+        home:CreditCard(),
 
       )
   );

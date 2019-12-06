@@ -136,7 +136,7 @@ class _PaymentOptionState extends State<PaymentOption> {
                     Center(
                         child: Container(
                             decoration: BoxDecoration(
-                              color: Color.fromRGBO(239, 244, 245, 1),
+                              color: Color.fromRGBO(15, 87, 111, 1.0),
                               borderRadius: BorderRadius.only(
                                   topLeft: Radius.circular(5.0),
                                   topRight: Radius.circular(5.0),
@@ -149,10 +149,10 @@ class _PaymentOptionState extends State<PaymentOption> {
                               child: new RaisedButton(
                                 padding: const EdgeInsets.all(15.0),
                                 textColor: Colors.white,
-                                color: Color.fromRGBO(20, 90, 120, 1),
+                                color: Color.fromRGBO(15, 87, 111, 1.0),
                                 onPressed: () {},
                                 child: new Text(
-                                  "SIGN UP",
+                                  "PAY \$4000.00",
                                   style: TextStyle(
                                       color: Colors.white,
                                       fontWeight: FontWeight.bold,
